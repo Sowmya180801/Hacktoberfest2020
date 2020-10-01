@@ -12,9 +12,10 @@ int factorial(int num) {
 int main() { 
   
   int num, result;
-  printf("Insert the number: ");
+  printf("Insert the number:\n ");
   scanf("%d", &num);
   result = factorial(num);
-  printf("Result = %d", result);
+  printf("Factorial of num is %d", result);
 	return 0; 
 }
+
